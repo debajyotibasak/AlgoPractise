@@ -1,4 +1,6 @@
-import SecondLargestNumber.secondLargestNumber
+package array.easy
+
+import array.easy.SecondLargestNumber.secondLargestNumber
 
 /**
  * Given an array of numbers, find the 2nd Largest Number
