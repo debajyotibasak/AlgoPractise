@@ -14,7 +14,7 @@ fun main() {
 /**
  * O(n) Time | O(1) Space
  * */
-fun isNonDecreasingArray(nums: IntArray): Boolean {
+private fun isNonDecreasingArray(nums: IntArray): Boolean {
     var position = -1 // Position to be modified
     for (index in 0 until nums.lastIndex) {
         if (nums[index] > nums[index + 1]) {

@@ -16,7 +16,7 @@ fun main() {
 /**
  * O(n) Time | O(1) Space
  * */
-fun rotate(nums: IntArray, k: Int): List<Int> {
+private fun rotate(nums: IntArray, k: Int): List<Int> {
     val placesToRotate = k % nums.size
     reverseArray(nums, 0, nums.size - 1)
     reverseArray(nums, 0, placesToRotate - 1)
